@@ -47,4 +47,4 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/new-image:${VERSION} .
+          docker build -t kikelomo22/new-image:${VERSION} .
